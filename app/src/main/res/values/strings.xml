@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SMEC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+    <string name="title_activity_call_developers">callDevelopers</string>
+    <string name="title_activity_notification_main_bar">NotificationMainBar</string>
+    <string name="title_activity_head_of_department_log_in_notify">HeadOfDepartmentLogInNotify
+    </string>
+    <string name="title_activity_notification_student_bar">NotificationStudentBar</string>
+    <string name="title_activity_hoddesk">HODdesk</string>
+    <string name="login_text">LOG IN</string>
+    <string name="username_text">USER NAME</string>
+    <string name="password_text">PASSWORD</string>
+    <string name="button_login">New Button</string>
+    <string name="buttn_login">login</string>
+    <string name="hod_text">H . O . D</string>
+    <string name="title_activity_news_feed">NewsFeed</string>
+    <string name="title_activity_faculty_time_table">FacultyTimeTable</string>
+    <string name="title_activity_labschedule">LABSchedule</string>
+    <string name="title_activity_libraryschedule">Libraryschedule</string>
+    <string name="title_activity_library__student_details">Library_StudentDetails</string>
+    <string name="title_activity_library__book_details">Library_BookDetails</string>
+    <string name="title_activity_faculty">faculty time table</string>
+    <string name="title_activity_cse_lab_schedule">Lab >> CSE</string>
+    <string name="title_activity_ece_lab_schedule">Lab >> ECE</string>
+    <string name="title_activity_cse_first_year">CSE >> First year</string>
+    <string name="title_activity_cse_second_year">CseSecondYear</string>
+    <string name="title_activity_cse_third_year">Cse >> ThirdYear</string>
+    <string name="title_activity_cse_fourth_year">CSE >> FourthYear</string>
+    <string name="title_activity_cse_second_year_first_sem">CSE >> 2-1</string>
+    <string name="title_activity_cse_second_year_second_sem">CseSecondYearSecondSem</string>
+    <string name="title_activity_cse_third_year_first_sem">CSE >> 3-1</string>
+    <string name="title_activity_cse_third_year_second_sem">CSE >> 3-2</string>
+    <string name="title_activity_cse_fourth_year_first_sem">CSE >> 4-1</string>
+    <string name="title_activity_student_hub">STUDENT HUB</string>
+</resources>

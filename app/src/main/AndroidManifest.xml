@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shadrach.smec" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FeedBack"
+            android:label="@string/title_activity_feed_back"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".callDevelopers"
+            android:label="@string/title_activity_call_developers"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".NotificationMainBar"
+            android:label="@string/title_activity_notification_main_bar"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".HeadOfDepartmentLogInNotify"
+            android:label="@string/title_activity_head_of_department_log_in_notify"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".NotificationStudentBar"
+            android:label="@string/title_activity_notification_student_bar"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".HODdesk"
+            android:label="@string/title_activity_hoddesk"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".NewsFeed"
+            android:label="@string/title_activity_news_feed" >
+        </activity>
+        <activity
+            android:name=".FacultyTimeTable"
+            android:label="@string/title_activity_faculty_time_table" >
+        </activity>
+        <activity
+            android:name=".LABSchedule"
+            android:label="@string/title_activity_labschedule" >
+        </activity>
+        <activity
+            android:name=".Libraryschedule"
+            android:label="@string/title_activity_libraryschedule" >
+        </activity>
+        <activity
+            android:name=".Library_StudentDetails"
+            android:label="@string/title_activity_library__student_details" >
+        </activity>
+        <activity
+            android:name=".Library_BookDetails"
+            android:label="@string/title_activity_library__book_details" >
+        </activity>
+        <activity
+            android:name=".Faculty"
+            android:label="@string/title_activity_faculty" >
+        </activity>
+        <activity
+            android:name=".CseLabSchedule"
+            android:label="@string/title_activity_cse_lab_schedule" >
+        </activity>
+        <activity
+            android:name=".EceLabSchedule"
+            android:label="@string/title_activity_ece_lab_schedule" >
+        </activity>
+        <activity
+            android:name=".CseFirstYear"
+            android:label="@string/title_activity_cse_first_year" >
+        </activity>
+        <activity
+            android:name=".CseSecondYear"
+            android:label="@string/title_activity_cse_second_year" >
+        </activity>
+        <activity
+            android:name=".CseThirdYear"
+            android:label="@string/title_activity_cse_third_year" >
+        </activity>
+        <activity
+            android:name=".CseFourthYear"
+            android:label="@string/title_activity_cse_fourth_year" >
+        </activity>
+        <activity
+            android:name=".CseSecondYearFirstSem"
+            android:label="@string/title_activity_cse_second_year_first_sem" >
+        </activity>
+        <activity
+            android:name=".CseSecondYearSecondSem"
+            android:label="@string/title_activity_cse_second_year_second_sem" >
+        </activity>
+        <activity
+            android:name=".CseThirdYearFirstSem"
+            android:label="@string/title_activity_cse_third_year_first_sem" >
+        </activity>
+        <activity
+            android:name=".CseThirdYearSecondSem"
+            android:label="@string/title_activity_cse_third_year_second_sem" >
+        </activity>
+        <activity
+            android:name=".CseFourthYearFirstSem"
+            android:label="@string/title_activity_cse_fourth_year_first_sem" >
+        </activity>
+        <activity
+            android:name=".StudentHub"
+            android:label="@string/title_activity_student_hub" >
+        </activity>
+    </application>
+
+</manifest>

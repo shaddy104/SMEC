@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadrach.smec.CseLabSchedule">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First year"
+        android:id="@+id/button16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickcse1Listener"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second year"
+        android:id="@+id/button17"
+        android:layout_below="@+id/button16"
+        android:layout_alignRight="@+id/button16"
+        android:layout_alignEnd="@+id/button16"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickcse2Listener"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="third year"
+        android:id="@+id/button24"
+        android:layout_below="@+id/button17"
+        android:layout_alignRight="@+id/button17"
+        android:layout_alignEnd="@+id/button17"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickcse3Listener"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fourth year"
+        android:id="@+id/button25"
+        android:layout_below="@+id/button24"
+        android:layout_alignRight="@+id/button24"
+        android:layout_alignEnd="@+id/button24"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickcse4Listener"/>
+</RelativeLayout>
